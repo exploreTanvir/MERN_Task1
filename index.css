@@ -1,0 +1,35 @@
+input {
+  margin: 0 8px;
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+}
+div {
+  margin: 15px 0;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+select {
+  width: 700px;
+  height: 35px;
+  text-align: center;
+  font-size: 15px;
+  background: #ffffff;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #d9dcff;
+}
+button {
+  padding: 15px 45px;
+  background: #94afff;
+  color: white;
+}

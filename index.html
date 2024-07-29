@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task1</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form action="/post" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Name: " id="name" name="name" />
+        <label for="email">Email</label>
+        <input type="Email" placeholder="Email: " id="email" name="email" />
+      </div>
+      <div>
+        <label for="roll">Roll</label>
+        <input type="number" placeholder="Roll: " id="roll" name="roll" />
+        <label for="Phone">Phone</label>
+        <input type="number" placeholder="Number: " id="phone" name="phone" />
+      </div>
+      <div>
+        <p>Division</p>
+        <select name="division" id="divisions">
+          <option>-- Select Division --</option>
+        </select>
+      </div>
+      <div>
+        <p>District</p>
+        <select name="district" id="district">
+          <option>-- Select District --</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Upload file</label>
+        <input type="file" name="file" id="file" />
+      </div>
+
+      <button type="submit">Save Now</button>
+    </form>
+
+    <script src="./test.js"></script>
+  </body>
+</html>
